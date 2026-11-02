@@ -1,0 +1,62 @@
+PCOS SCOPE
+Project Plan and Development Checklist
+
+PROJECT TITLE
+PCOS SCOPE: An Intelligent Health Data Integration and Reliability Framework for Explainable Machine Learning
+
+PROJECT OBJECTIVE
+Develop a local-first application and research framework that investigates how incomplete, inconsistent, and unfamiliar clinical data affect PCOS classification, model reliability, and explanations.
+
+The system will help users inspect health data, identify data-quality issues, understand model limitations, and organize information for healthcare consultations. It is a research prototype, not a diagnostic tool.
+
+PHASE 1: RESEARCH FOUNDATION
+[ ] Review existing research on PCOS classification using machine learning.
+[ ] Review research on missing clinical data and data-quality assessment.
+[ ] Review explainable AI methods for healthcare.
+[ ] Review uncertainty estimation, unfamiliar-data detection, and prediction abstention.
+[ ] Identify a specific, evidence-supported research gap.
+[ ] Finalize research questions, hypotheses, and evaluation metrics.
+
+PHASE 2: DATA FOUNDATION
+[ ] Preserve the original dataset without modification.
+[ ] Audit column names, data types, missing values, duplicates, and suspicious values.
+[ ] Verify the target label and identify potential data leakage.
+[ ] Separate patient identifiers from model features.
+[ ] Define the supported clinical-data schema.
+[ ] Design column-mapping and compatibility checks.
+[ ] Develop reproducible preprocessing steps.
+
+PHASE 3: MACHINE LEARNING RESEARCH
+[ ] Establish simple baseline models.
+[ ] Evaluate models using suitable classification metrics.
+[ ] Test the effect of different levels and patterns of missing data.
+[ ] Compare suitable missing-value handling methods.
+[ ] Investigate unfamiliar-data detection and prediction abstention.
+[ ] Evaluate the consistency and usefulness of model explanations.
+[ ] Record results, limitations, and reproducibility details.
+
+PHASE 4: APPLICATION DEVELOPMENT
+[ ] Build the initial application interface.
+[ ] Implement CSV and Excel import with validation.
+[ ] Display data-quality issues and column-mapping suggestions.
+[ ] Connect compatible data to the validated ML pipeline.
+[ ] Add model explanations and reliability warnings.
+[ ] Add optional manual health-data tracking and timeline views.
+[ ] Generate a report that users can discuss with healthcare professionals.
+[ ] Implement appropriate local data storage and privacy controls.
+
+PHASE 5: TESTING AND FINAL SUBMISSION
+[ ] Test invalid files, missing columns, and incorrect data types.
+[ ] Test model and preprocessing compatibility.
+[ ] Test incomplete-data scenarios and failure cases.
+[ ] Verify that warnings and limitations are clearly communicated.
+[ ] Document actual experimental results without exaggeration.
+[ ] Prepare the research paper and methodology.
+[ ] Prepare the application demonstration and presentation.
+
+IMPORTANT RULES
+- Do not modify the original dataset.
+- Do not claim medical diagnostic capability.
+- Do not claim novelty before checking the literature.
+- Do not report experimental results that have not been measured.
+- Keep code, data, models, reports, and research notes organized.

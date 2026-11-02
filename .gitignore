@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.streamlit/secrets.toml
+
+app/app_old.py
+data/processed/app.py
+models/pcos_scope_random_forest_pipeline_v1_baseline.joblib

@@ -1,0 +1,14 @@
+
+================ RESULTS SUMMARY (copy into the report) ================
+1. Deployed model reproduces notebook result: True | test acc 0.908,
+   sensitivity 0.833 (95% CI 0.70-0.94),
+   ROC-AUC 0.943 (95% CI 0.88-0.99).
+2. Leakage test: shuffled-label AUC 0.50 (real 0.96).
+3. Missing-data handling: mean ROC-AUC over 12 incomplete-data scenarios rises from
+   0.916 (median imputation) to 0.916 (strategy B); complete-data AUC 0.960 -> 0.960.
+4. Explanations under 30% missing cells: Rank correlation (top-10 features) vs complete-data ranking
+   A = 0.84, E = 0.81.
+5. Abstention rule: see Part D table (accuracy on decided vs forced).
+Limitations: 541 records, one dataset, one hospital; features overlap with diagnostic criteria
+(follicle counts, AMH, LH/FSH); missingness is SIMULATED (MCAR and group-block), not observed.
+==========================================================================

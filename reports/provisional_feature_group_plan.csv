@@ -1,0 +1,41 @@
+Feature_Group,Feature,Column_Exists,Status
+Physical and metabolic,Age (yrs),False,Provisional - review before modelling
+Physical and metabolic,Weight (Kg),True,Provisional - review before modelling
+Physical and metabolic,Height(Cm) ,True,Provisional - review before modelling
+Physical and metabolic,BMI,True,Provisional - review before modelling
+Physical and metabolic,Pulse rate(bpm) ,True,Provisional - review before modelling
+Physical and metabolic,RR (breaths/min),True,Provisional - review before modelling
+Physical and metabolic,Hb(g/dl),True,Provisional - review before modelling
+Physical and metabolic,Hip(inch),True,Provisional - review before modelling
+Physical and metabolic,Waist(inch),True,Provisional - review before modelling
+Physical and metabolic,TSH (mIU/L),True,Provisional - review before modelling
+Physical and metabolic,RBS(mg/dl),True,Provisional - review before modelling
+Physical and metabolic,BP _Systolic (mmHg),True,Provisional - review before modelling
+Physical and metabolic,BP _Diastolic (mmHg),True,Provisional - review before modelling
+Hormonal and biochemical,I   beta-HCG(mIU/mL),False,Provisional - review before modelling
+Hormonal and biochemical,II    beta-HCG(mIU/mL),True,Provisional - review before modelling
+Hormonal and biochemical,FSH(mIU/mL),True,Provisional - review before modelling
+Hormonal and biochemical,LH(mIU/mL),True,Provisional - review before modelling
+Hormonal and biochemical,FSH/LH,True,Provisional - review before modelling
+Hormonal and biochemical,AMH(ng/mL),True,Provisional - review before modelling
+Hormonal and biochemical,PRL(ng/mL),True,Provisional - review before modelling
+Hormonal and biochemical,Vit D3 (ng/mL),True,Provisional - review before modelling
+Hormonal and biochemical,PRG(ng/mL),True,Provisional - review before modelling
+Menstrual and reproductive history,Cycle(R/I),True,Provisional - review before modelling
+Menstrual and reproductive history,Cycle length(days),True,Provisional - review before modelling
+Menstrual and reproductive history,Marraige Status (Yrs),True,Provisional - review before modelling
+Menstrual and reproductive history,Pregnant(Y/N),True,Provisional - review before modelling
+Menstrual and reproductive history,No. of aborptions,True,Provisional - review before modelling
+Symptoms and lifestyle,Weight gain(Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,hair growth(Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,Skin darkening (Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,Hair loss(Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,Pimples(Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,Fast food (Y/N),True,Provisional - review before modelling
+Symptoms and lifestyle,Reg.Exercise(Y/N),True,Provisional - review before modelling
+Ovarian measurements,Follicle No. (L),True,Provisional - review before modelling
+Ovarian measurements,Follicle No. (R),True,Provisional - review before modelling
+Ovarian measurements,Avg. F size (L) (mm),True,Provisional - review before modelling
+Ovarian measurements,Avg. F size (R) (mm),True,Provisional - review before modelling
+Ovarian measurements,Endometrium (mm),True,Provisional - review before modelling
+Categorical feature - separate review,Blood Group,True,Treat as categorical; verify code mapping

@@ -1,0 +1,63 @@
+PCOS SCOPE - MODELING PROTOCOL
+
+1. DATASET
+- Use the cleaned dataset.
+- Target: PCOS (Y/N).
+- Exclude Sl. No and Patient File No. from model inputs.
+
+2. DATA SPLIT
+- 80% training data and 20% testing data.
+- Use stratified splitting.
+- Set random_state=42 for reproducibility.
+
+3. VALIDATION
+- Use 5-fold stratified cross-validation on training data.
+- Fit preprocessing only on training folds.
+- Keep test data separate until final evaluation.
+
+4. INITIAL MODELS
+- Logistic Regression.
+- Random Forest.
+- Compare both using consistent features and data splits.
+
+5. PREPROCESSING
+- Handle missing values inside a machine-learning pipeline.
+- Treat Blood Group as categorical.
+- Review coded categorical variables before interpreting them.
+
+6. EVALUATION METRICS
+- Sensitivity.
+- Specificity.
+- F1-score.
+- ROC-AUC.
+- Confusion matrix.
+
+7. FEATURE-GROUP EXPERIMENTS
+- Evaluate individual feature groups.
+- Evaluate selected group combinations.
+- Exclude identifiers and the target from all inputs.
+
+8. MISSING-DATA EXPERIMENTS
+- Simulate missing values and unavailable feature groups.
+- Measure performance changes.
+- Record prediction coverage where applicable.
+
+9. EXPLAINABILITY
+- Examine global and individual feature contributions.
+- Compare explanations under complete and incomplete inputs.
+- Do not interpret explanations as proof of causation.
+
+10. ADDITIONAL COMPARISONS
+- Recorded BMI versus recalculated BMI.
+- Models with versus without ovarian measurements.
+
+11. REPRODUCIBILITY
+- Record random seeds, feature sets, preprocessing,
+  model settings, and evaluation results.
+- Do not apply SMOTE automatically.
+
+12. LIMITATIONS
+- The dataset contains 541 records from one dataset.
+- Feature groups are not independent data sources.
+- Results do not establish clinical validity.
+- PCOS SCOPE is a research prototype, not a diagnostic tool.

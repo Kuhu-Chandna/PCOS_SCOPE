@@ -1,0 +1,79 @@
+Scenario,Strategy,Accuracy,Sensitivity,Specificity,ROC_AUC,Strategy_name
+Cells 10%,A,0.8919,0.7997,0.9368,0.9507,A. Median imputation (current app)
+Cells 10%,B,0.8919,0.7997,0.9368,0.9504,B. Derived values + median
+Cells 10%,C,0.8983,0.8196,0.9368,0.9523,C. Derived values + KNN imputer
+Cells 10%,D,0.8965,0.828,0.93,0.9541,D. Derived values + iterative imputer
+Cells 10%,E,0.8882,0.8678,0.8985,0.9507,E. Derived + median + train-time masking
+Cells 10%,F,0.8919,0.8058,0.9341,0.9447,F. Gradient boosting (native NaN) + train-time masking
+Cells 20%,A,0.89,0.7629,0.9519,0.942,A. Median imputation (current app)
+Cells 20%,B,0.8872,0.7544,0.9519,0.9414,B. Derived values + median
+Cells 20%,C,0.8872,0.7856,0.9368,0.9417,C. Derived values + KNN imputer
+Cells 20%,D,0.8881,0.7969,0.9327,0.9444,D. Derived values + iterative imputer
+Cells 20%,E,0.8909,0.8394,0.9162,0.946,E. Derived + median + train-time masking
+Cells 20%,F,0.8863,0.7914,0.9327,0.9397,F. Gradient boosting (native NaN) + train-time masking
+Cells 30%,A,0.8484,0.6213,0.9588,0.9176,A. Median imputation (current app)
+Cells 30%,B,0.8474,0.6185,0.9588,0.9174,B. Derived values + median
+Cells 30%,C,0.865,0.7061,0.9423,0.9201,C. Derived values + KNN imputer
+Cells 30%,D,0.8632,0.7006,0.9423,0.9224,D. Derived values + iterative imputer
+Cells 30%,E,0.8716,0.7857,0.9135,0.9219,E. Derived + median + train-time masking
+Cells 30%,F,0.8549,0.7406,0.9108,0.917,F. Gradient boosting (native NaN) + train-time masking
+Cells 40%,A,0.8142,0.5053,0.9643,0.8898,A. Median imputation (current app)
+Cells 40%,B,0.816,0.5138,0.9629,0.8901,B. Derived values + median
+Cells 40%,C,0.8336,0.6186,0.9382,0.8958,C. Derived values + KNN imputer
+Cells 40%,D,0.8345,0.6157,0.941,0.9016,D. Derived values + iterative imputer
+Cells 40%,E,0.8475,0.7121,0.9135,0.8993,E. Derived + median + train-time masking
+Cells 40%,F,0.8456,0.7062,0.9135,0.9014,F. Gradient boosting (native NaN) + train-time masking
+Cells 50%,A,0.8077,0.4435,0.9849,0.8928,A. Median imputation (current app)
+Cells 50%,B,0.8096,0.4492,0.9849,0.8937,B. Derived values + median
+Cells 50%,C,0.8299,0.5706,0.9561,0.8992,C. Derived values + KNN imputer
+Cells 50%,D,0.8336,0.5565,0.9684,0.899,D. Derived values + iterative imputer
+Cells 50%,E,0.8438,0.6756,0.9259,0.899,E. Derived + median + train-time masking
+Cells 50%,F,0.842,0.7232,0.8998,0.8989,F. Gradient boosting (native NaN) + train-time masking
+Complete,A,0.9011,0.8475,0.9272,0.9602,A. Median imputation (current app)
+Complete,B,0.9011,0.8475,0.9272,0.9602,B. Derived values + median
+Complete,C,0.903,0.8504,0.9286,0.9599,C. Derived values + KNN imputer
+Complete,D,0.9011,0.8475,0.9272,0.9602,D. Derived values + iterative imputer
+Complete,E,0.8863,0.8817,0.8888,0.9575,E. Derived + median + train-time masking
+Complete,F,0.8974,0.8166,0.9369,0.9549,F. Gradient boosting (native NaN) + train-time masking
+No hormonal,A,0.9039,0.8306,0.9396,0.9576,A. Median imputation (current app)
+No hormonal,B,0.9039,0.8306,0.9396,0.9576,B. Derived values + median
+No hormonal,C,0.9039,0.8506,0.9299,0.9562,C. Derived values + KNN imputer
+No hormonal,D,0.8974,0.8194,0.9354,0.9571,D. Derived values + iterative imputer
+No hormonal,E,0.8817,0.8931,0.8765,0.9553,E. Derived + median + train-time masking
+No hormonal,F,0.8965,0.8335,0.9272,0.9475,F. Gradient boosting (native NaN) + train-time masking
+"No hormonal + ovarian (no lab, no scan)",A,0.8161,0.5484,0.9465,0.8756,A. Median imputation (current app)
+"No hormonal + ovarian (no lab, no scan)",B,0.8161,0.5484,0.9465,0.8756,B. Derived values + median
+"No hormonal + ovarian (no lab, no scan)",C,0.7958,0.6298,0.8764,0.852,C. Derived values + KNN imputer
+"No hormonal + ovarian (no lab, no scan)",D,0.8263,0.6471,0.9135,0.8715,D. Derived values + iterative imputer
+"No hormonal + ovarian (no lab, no scan)",E,0.8198,0.7518,0.853,0.8787,E. Derived + median + train-time masking
+"No hormonal + ovarian (no lab, no scan)",F,0.8161,0.672,0.8859,0.8632,F. Gradient boosting (native NaN) + train-time masking
+No menstrual,A,0.9048,0.8221,0.945,0.953,A. Median imputation (current app)
+No menstrual,B,0.9048,0.8221,0.945,0.953,B. Derived values + median
+No menstrual,C,0.9076,0.8308,0.9451,0.9546,C. Derived values + KNN imputer
+No menstrual,D,0.9048,0.8221,0.9451,0.9529,D. Derived values + iterative imputer
+No menstrual,E,0.8928,0.862,0.908,0.9507,E. Derived + median + train-time masking
+No menstrual,F,0.8891,0.8082,0.9286,0.9478,F. Gradient boosting (native NaN) + train-time masking
+No ovarian,A,0.8105,0.5654,0.9299,0.8809,A. Median imputation (current app)
+No ovarian,B,0.8105,0.5654,0.9299,0.8809,B. Derived values + median
+No ovarian,C,0.8087,0.6467,0.8873,0.8602,C. Derived values + KNN imputer
+No ovarian,D,0.8244,0.6415,0.9135,0.8801,D. Derived values + iterative imputer
+No ovarian,E,0.8216,0.7205,0.8708,0.8768,E. Derived + median + train-time masking
+No ovarian,F,0.8207,0.6779,0.8901,0.8783,F. Gradient boosting (native NaN) + train-time masking
+No physical,A,0.8983,0.8532,0.9204,0.9602,A. Median imputation (current app)
+No physical,B,0.8983,0.8532,0.9204,0.9602,B. Derived values + median
+No physical,C,0.9011,0.8475,0.9272,0.9606,C. Derived values + KNN imputer
+No physical,D,0.8993,0.8532,0.9217,0.9603,D. Derived values + iterative imputer
+No physical,E,0.8947,0.9129,0.8861,0.9575,E. Derived + median + train-time masking
+No physical,F,0.8946,0.8196,0.9314,0.955,F. Gradient boosting (native NaN) + train-time masking
+No symptoms,A,0.8114,0.4684,0.978,0.9117,A. Median imputation (current app)
+No symptoms,B,0.8114,0.4684,0.978,0.9117,B. Derived values + median
+No symptoms,C,0.8105,0.4685,0.9767,0.9109,C. Derived values + KNN imputer
+No symptoms,D,0.8123,0.4713,0.978,0.9116,D. Derived values + iterative imputer
+No symptoms,E,0.8622,0.7145,0.9341,0.9152,E. Derived + median + train-time masking
+No symptoms,F,0.8586,0.743,0.9149,0.91,F. Gradient boosting (native NaN) + train-time masking
+Random groups missing (40% each),A,0.8123,0.5023,0.9629,0.8584,A. Median imputation (current app)
+Random groups missing (40% each),B,0.8123,0.5023,0.9629,0.8584,B. Derived values + median
+Random groups missing (40% each),C,0.8151,0.5475,0.945,0.8595,C. Derived values + KNN imputer
+Random groups missing (40% each),D,0.8151,0.5221,0.9574,0.8656,D. Derived values + iterative imputer
+Random groups missing (40% each),E,0.8382,0.6748,0.9176,0.8762,E. Derived + median + train-time masking
+Random groups missing (40% each),F,0.8364,0.6921,0.9067,0.8948,F. Gradient boosting (native NaN) + train-time masking

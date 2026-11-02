@@ -1,0 +1,4 @@
+Column,Row_Index,Original_Value,Action,Reason
+II    beta-HCG(mIU/mL),123,1.99.,Removed trailing punctuation; interpreted as 1.99,The entry appears to be a numeric value with a trailing period
+AMH(ng/mL),305,a,Replaced with missing value,The text entry cannot be interpreted reliably as a numeric measurement
+Unnamed: 44,Multiple,"{180: '.', 363: 7}",Column excluded from processed dataset,Uninformative column name; 539 of 541 values are missing

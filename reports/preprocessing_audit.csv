@@ -1,0 +1,42 @@
+Feature,Preprocessing_Type,Original_Dtype,Missing_Values,Unique_Non_Missing_Values
+Age (yrs),Numeric,int64,0,29
+Weight (Kg),Numeric,float64,0,117
+Height(Cm),Numeric,float64,0,50
+BMI,Numeric,float64,0,355
+Blood Group,Categorical,int64,0,8
+Pulse rate(bpm),Numeric,int64,0,11
+RR (breaths/min),Numeric,int64,0,8
+Hb(g/dl),Numeric,float64,0,46
+Cycle(R/I),Categorical,int64,0,3
+Cycle length(days),Numeric,int64,0,12
+Marraige Status (Yrs),Numeric,float64,1,34
+Pregnant(Y/N),Categorical,int64,0,2
+No. of aborptions,Numeric,int64,0,6
+I   beta-HCG(mIU/mL),Numeric,float64,0,307
+II    beta-HCG(mIU/mL),Numeric,float64,0,202
+FSH(mIU/mL),Numeric,float64,0,371
+LH(mIU/mL),Numeric,float64,0,342
+FSH/LH,Numeric,float64,0,512
+Hip(inch),Numeric,int64,0,19
+Waist(inch),Numeric,int64,0,23
+Waist:Hip Ratio,Numeric,float64,0,96
+TSH (mIU/L),Numeric,float64,0,308
+AMH(ng/mL),Numeric,float64,1,300
+PRL(ng/mL),Numeric,float64,0,481
+Vit D3 (ng/mL),Numeric,float64,0,331
+PRG(ng/mL),Numeric,float64,0,89
+RBS(mg/dl),Numeric,float64,0,55
+Weight gain(Y/N),Categorical,int64,0,2
+hair growth(Y/N),Categorical,int64,0,2
+Skin darkening (Y/N),Categorical,int64,0,2
+Hair loss(Y/N),Categorical,int64,0,2
+Pimples(Y/N),Categorical,int64,0,2
+Fast food (Y/N),Categorical,float64,1,2
+Reg.Exercise(Y/N),Categorical,int64,0,2
+BP _Systolic (mmHg),Numeric,int64,0,6
+BP _Diastolic (mmHg),Numeric,int64,0,5
+Follicle No. (L),Numeric,int64,0,21
+Follicle No. (R),Numeric,int64,0,20
+Avg. F size (L) (mm),Numeric,float64,0,31
+Avg. F size (R) (mm),Numeric,float64,0,32
+Endometrium (mm),Numeric,float64,0,91

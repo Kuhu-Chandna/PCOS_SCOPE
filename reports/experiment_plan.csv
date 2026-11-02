@@ -1,0 +1,10 @@
+Experiment_ID,Experiment_Name,Purpose,Main_Comparison,Evaluation,Status
+E1,Baseline classification,Establish reference performance using eligible features,Baseline model metrics,"Sensitivity, specificity, F1, ROC-AUC, confusion matrix",Completed - baseline models and cross-validation
+E2,Individual feature groups,Measure the predictive contribution of each group,Each group evaluated separately,Same split and metrics across groups,Completed - initial held-out test evaluation
+E3,Combined feature groups,Test whether group combinations improve classification,Selected group combinations versus baseline,Same split and metrics across combinations,Completed - initial held-out test evaluation
+E4,Missing-feature robustness,Measure performance when some feature values are missing,Complete versus simulated incomplete inputs,Performance change and missingness rate,Completed - random cell-missingness simulation
+E5,Missing-group robustness,Measure the effect of an unavailable feature group,Full eligible groups versus selected groups withheld,Performance change and prediction coverage,Completed - initial missing-group evaluation
+E6,Explainability,Investigate which features contribute to predictions,Feature contributions across selected models,Global and individual explanations,Completed - permutation importance analysis
+E7,Explanation stability,Assess whether explanations change under incomplete inputs,Explanations across complete and incomplete conditions,Consistency of feature-attribution patterns,Completed - five-run explanation stability analysis
+E8,BMI handling comparison,Investigate recorded versus consistently calculated BMI,Two documented BMI strategies,Performance and explanation differences,Completed - BMI inclusion versus exclusion
+E9,Diagnostic-feature sensitivity analysis,,,,Completed - exploratory comparison of full and reduced feature sets

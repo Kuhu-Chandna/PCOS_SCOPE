@@ -1,0 +1,34 @@
+PCOS SCOPE - PROVISIONAL MODEL SELECTION
+========================================
+
+Selected candidate:
+Random Forest with class_weight='balanced'
+
+Input configuration:
+Full clinical model using 40 features.
+
+Repeated cross-validation (5 folds x 3 repeats):
+Mean accuracy:    0.9002
+Mean sensitivity: 0.8437
+Mean F1-score:    0.8457
+Mean ROC-AUC:     0.9590
+
+Comparison:
+The reduced 25-feature model had lower mean scores on all
+four metrics in the exploratory repeated-CV evaluation.
+
+Important limitations:
+1. The dataset contains 541 records from one dataset.
+2. Earlier feature comparisons reused the same held-out test set.
+3. Repeated cross-validation is exploratory, not independent
+   external validation.
+4. Clinical overlap between input features and PCOS labels
+   requires careful interpretation.
+5. This model is a research prototype, not a diagnostic tool.
+
+Next steps:
+- Finalise the methodology and limitations.
+- Save and test the preprocessing-plus-model pipeline.
+- Build an application that validates inputs and communicates
+  limitations clearly.
+- Avoid claims of clinical readiness without independent validation.

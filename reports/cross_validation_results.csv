@@ -1,0 +1,9 @@
+Model,Metric,Mean_CV_Score,Std_CV_Score
+Logistic Regression (balanced),ROC_AUC,0.9280075604679083,0.01568932888017756
+Logistic Regression (balanced),F1_Score,0.8149638126992947,0.04045012219475965
+Logistic Regression (balanced),Sensitivity,0.8655172413793103,0.02479501734319587
+Logistic Regression (balanced),Accuracy,0.8705426356589147,0.03310605391028775
+Random Forest (balanced),ROC_AUC,0.9536921700500672,0.016829611997806936
+Random Forest (balanced),F1_Score,0.8536714964477469,0.05056512763707555
+Random Forest (balanced),Sensitivity,0.8512315270935961,0.02549469304458954
+Random Forest (balanced),Accuracy,0.9029671210906175,0.038584252093163116

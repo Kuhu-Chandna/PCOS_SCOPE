@@ -1,0 +1,31 @@
+Model,Group_missing_prob,Policy,Coverage,Accuracy_on_decided,Sensitivity_on_decided,Accuracy_on_abstained_if_forced
+A,0.2,No abstention (threshold 0.5),1.0,0.873,0.706,
+A,0.2,"Input rules only (>=3 ovarian, >=3 symptom)",0.63,0.906,0.833,0.818
+A,0.2,Score band 35-65% only,0.799,0.92,0.736,0.688
+A,0.2,CURRENT APP: band 35-65% + input rules,0.496,0.952,0.893,0.796
+A,0.2,Wider: band 30-70% + input rules,0.446,0.963,0.903,0.801
+A,0.4,No abstention (threshold 0.5),1.0,0.822,0.52,
+A,0.4,"Input rules only (>=3 ovarian, >=3 symptom)",0.347,0.907,0.837,0.777
+A,0.4,Score band 35-65% only,0.821,0.868,0.513,0.608
+A,0.4,CURRENT APP: band 35-65% + input rules,0.274,0.96,0.926,0.769
+A,0.4,Wider: band 30-70% + input rules,0.25,0.974,0.94,0.771
+A,0.6,No abstention (threshold 0.5),1.0,0.768,0.339,
+A,0.6,"Input rules only (>=3 ovarian, >=3 symptom)",0.169,0.885,0.776,0.744
+A,0.6,Score band 35-65% only,0.871,0.797,0.264,0.571
+A,0.6,CURRENT APP: band 35-65% + input rules,0.137,0.946,0.854,0.74
+A,0.6,Wider: band 30-70% + input rules,0.128,0.949,0.853,0.742
+B,0.2,No abstention (threshold 0.5),1.0,0.873,0.706,
+B,0.2,"Input rules only (>=3 ovarian, >=3 symptom)",0.63,0.906,0.833,0.818
+B,0.2,Score band 35-65% only,0.799,0.92,0.737,0.688
+B,0.2,CURRENT APP: band 35-65% + input rules,0.496,0.952,0.894,0.796
+B,0.2,Wider: band 30-70% + input rules,0.447,0.963,0.903,0.801
+B,0.4,No abstention (threshold 0.5),1.0,0.822,0.52,
+B,0.4,"Input rules only (>=3 ovarian, >=3 symptom)",0.347,0.907,0.837,0.777
+B,0.4,Score band 35-65% only,0.821,0.868,0.513,0.608
+B,0.4,CURRENT APP: band 35-65% + input rules,0.274,0.96,0.926,0.769
+B,0.4,Wider: band 30-70% + input rules,0.25,0.974,0.94,0.771
+B,0.6,No abstention (threshold 0.5),1.0,0.769,0.342,
+B,0.6,"Input rules only (>=3 ovarian, >=3 symptom)",0.169,0.885,0.776,0.745
+B,0.6,Score band 35-65% only,0.871,0.797,0.264,0.579
+B,0.6,CURRENT APP: band 35-65% + input rules,0.137,0.946,0.854,0.741
+B,0.6,Wider: band 30-70% + input rules,0.128,0.949,0.853,0.743

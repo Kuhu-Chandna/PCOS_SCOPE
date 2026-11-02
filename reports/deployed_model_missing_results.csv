@@ -1,0 +1,11 @@
+Scenario,Accuracy,Sensitivity,Specificity,ROC_AUC
+Complete,0.9083,0.8333,0.9452,0.9425
+Cells 10%,0.8899,0.7778,0.9452,0.9323
+Cells 20%,0.8807,0.7222,0.9589,0.9115
+Cells 30%,0.844,0.5833,0.9726,0.8942
+No physical,0.8991,0.8333,0.9315,0.9509
+No hormonal,0.9083,0.8333,0.9452,0.9287
+No menstrual,0.9266,0.8333,0.9726,0.9374
+No symptoms,0.8349,0.5278,0.9863,0.9024
+No ovarian,0.8073,0.5556,0.9315,0.8857
+"No hormonal + ovarian (no lab, no scan)",0.8257,0.5833,0.9452,0.8697

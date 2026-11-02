@@ -1,0 +1,13 @@
+Model,Scenario,Spearman_top10,Top5_overlap,Top1_kept,AUC
+A,Cells 10%,0.83,0.85,1.0,0.937
+A,Cells 20%,0.785,0.8,1.0,0.932
+A,Cells 30%,0.836,0.9,1.0,0.926
+A,No hormonal,0.87,0.9,1.0,0.929
+A,No ovarian,0.879,1.0,0.25,0.886
+A,No symptoms,0.906,0.8,1.0,0.902
+E,Cells 10%,0.948,0.9,1.0,0.925
+E,Cells 20%,0.848,0.8,1.0,0.917
+E,Cells 30%,0.808,0.8,1.0,0.917
+E,No hormonal,0.788,0.7,1.0,0.912
+E,No ovarian,0.736,0.65,0.5,0.882
+E,No symptoms,0.939,0.85,1.0,0.905
